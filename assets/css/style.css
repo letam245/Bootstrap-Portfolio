@@ -1,7 +1,6 @@
 body {
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   	color: #777777;
-  	background: #ffffff;
   	background-image:url(../images/concretebg.png);
 }
 
@@ -287,5 +286,37 @@ body {
 
 }
 
+
+/*-------------MEDIA QUERIES-------------*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	.bio { 
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+	.bio { 
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	
+}
 
 
